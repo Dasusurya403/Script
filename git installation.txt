@@ -1,0 +1,24 @@
+1  clear
+    2  pwd
+    3  cd /home
+    4  ls
+    5  cd sirisha/
+    6  pwd
+    7  clear
+    8  git --version
+    9  yum install git -y
+   10  git --version
+   11  clear
+   12  git --version
+   13  wget http://opensource.wandisco.com/centos/7/git/x86_64/wandisco-git-release-7-2.noarch.rpm
+   14  ls -ll
+   15  chmod 777 wandisco-git-release-7-2.noarch.rpm
+   16  rpm -ivh wandisco-git-release-7-2.noarch.rpm
+   17  git --version
+   18  clear
+   19  rpm -U wandisco-git-release-7-2.noarch.rpm
+   20  yum install git -y
+   21  clear
+   22  git --version
+   23  history
+[root@localhost sirisha]#
